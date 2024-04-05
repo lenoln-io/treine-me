@@ -1,0 +1,135 @@
+:root {
+    --main-color: #89C5CC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 65px auto;
+
+    height: 100vh;
+
+    width: 1280px;
+
+    background: linear-gradient(180deg, rgba(0,0,0,0) 82%, rgba(105,185,157,0.3) 100%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1534;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    opacity: 0.5;
+}
+
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 82px;
+}
+
+h1 {
+    font-family: 'Mulish', 'Times New Roman', sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+}
+
+h1 span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.left {
+    width: 489px;
+}
+
+p {
+    margin: 40px 0;
+    color: #7D7987;
+}
+
+p span {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p a {
+    font-weight: bold;
+}
+
+#logo {
+    font-family: 'Inter', 'Times New Roman', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--main-color);
+}
+
+button {
+    background: #69B99D;
+    text-transform: uppercase;
+    padding: 14px 32px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    border: 0;
+    border-radius: 4px;
+
+    color: #F9F9F9;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #529f84;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+}
+
+.balls {
+    position: fixed;
+    right: 0;
+}
