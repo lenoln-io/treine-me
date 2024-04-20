@@ -1,4 +1,5 @@
 :root {
+    font-size: 62.5%;
     --main-color: #89C5CC;
 }
 
@@ -10,22 +11,25 @@
 
 body {
     font-family: 'Open Sans', 'Times New Roman', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
-    margin: 65px auto;
+    
 
     height: 100vh;
 
-    width: 1280px;
-
     background: linear-gradient(180deg, rgba(0,0,0,0) 82%, rgba(105,185,157,0.3) 100%);
+}
+
+.page {
+    width: 100.8rem;
+    margin: 6.5rem auto;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 58px;
+    margin-bottom: 5.8rem;
 }
 
 a {
@@ -35,7 +39,7 @@ a {
 
 ul {
     display: flex;
-    gap: 48px;
+    gap: 4.8rem;
 }
 
 ul li {
@@ -57,14 +61,14 @@ main {
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 82px;
+    margin-bottom: 8.2rem;
 }
 
 h1 {
     font-family: 'Mulish', 'Times New Roman', sans-serif;
     font-weight: 400;
-    font-size: 49px;
-    line-height: 56px;
+    font-size: 4.9rem;
+    line-height: 5.6rem;
 }
 
 h1 span {
@@ -73,11 +77,11 @@ h1 span {
 }
 
 .left {
-    width: 489px;
+    width: 43.8rem;
 }
 
 p {
-    margin: 40px 0;
+    margin: 4rem 0;
     color: #7D7987;
 }
 
@@ -97,22 +101,22 @@ footer p a {
 #logo {
     font-family: 'Inter', 'Times New Roman', sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: var(--main-color);
 }
 
 button {
     background: #69B99D;
     text-transform: uppercase;
-    padding: 14px 32px 15px;
+    padding: 1.4rem 3.2rem 1.5rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 1rem;
 
     border: 0;
-    border-radius: 4px;
+    border-radius: .4rem;
 
     color: #F9F9F9;
     font-weight: 400;
@@ -125,8 +129,8 @@ button:hover {
 }
 
 button img {
-    width: 24px;
-    height: 24px;
+    width: 2.4rem;
+    height: 2.4rem;
 }
 
 .balls {
